@@ -45,3 +45,4 @@
 .\objects\timer.o: .\User\inc\pwm.h
 .\objects\timer.o: .\User\inc\menu.h
 .\objects\timer.o: .\User\inc\rcc.h
+.\objects\timer.o: .\User\inc\spi.h

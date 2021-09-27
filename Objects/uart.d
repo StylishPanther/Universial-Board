@@ -45,3 +45,4 @@
 .\objects\uart.o: .\User\inc\pwm.h
 .\objects\uart.o: .\User\inc\menu.h
 .\objects\uart.o: .\User\inc\rcc.h
+.\objects\uart.o: .\User\inc\spi.h

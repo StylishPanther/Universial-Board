@@ -480,6 +480,16 @@
               <FileType>5</FileType>
               <FilePath>.\User\inc\menu.h</FilePath>
             </File>
+            <File>
+              <FileName>spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\inc\spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\src\spi.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

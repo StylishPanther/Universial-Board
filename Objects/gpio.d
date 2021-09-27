@@ -45,3 +45,4 @@
 .\objects\gpio.o: .\User\inc\pwm.h
 .\objects\gpio.o: .\User\inc\menu.h
 .\objects\gpio.o: .\User\inc\rcc.h
+.\objects\gpio.o: .\User\inc\spi.h

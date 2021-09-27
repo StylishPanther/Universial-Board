@@ -13,6 +13,7 @@
 #include "pwm.h"
 #include "menu.h"
 #include "rcc.h"
+#include "spi.h"
 
 #include "stm32f4xx.h"
 

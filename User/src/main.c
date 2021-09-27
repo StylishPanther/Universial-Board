@@ -61,6 +61,7 @@ void System_Init(void)
 	M4_Rcc_Init();
 	//M4_Timer_Init();
 	M4_Pwm_Init();
+	M4_Spi_Init();
 
 }
 
