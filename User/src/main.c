@@ -59,11 +59,9 @@ void System_Init(void)
 	M4_Gpio_Init();
 	M4_Usart_Init();
 	M4_Rcc_Init();
-	M4_Timer_Init();
+	//M4_Timer_Init();
 	M4_Pwm_Init();
-	
-	
-	
+
 }
 
 void Variable_Init(void)

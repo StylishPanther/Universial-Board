@@ -6,7 +6,8 @@ char TIM5_flag = 0;
 
 void M4_Timer_Init(void)
 {
-	TIM3_Configuration();	
+	//TIM3_Configuration();
+	TxPrintf("M4 Timer Initialized!!\n");
 }
 void TIM1_Configuration(void)
 {

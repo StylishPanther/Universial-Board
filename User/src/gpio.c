@@ -499,9 +499,10 @@ void PB_Init(void)
 	
 	gpio[PB4].GPIO_Pin	= GPIO_Pin_4;
 	gpio[PB4].GPIO_Mode = GPIO_Mode_AF;
-	gpio[PB4].GPIO_Speed = GPIO_Speed_2MHz;
+	gpio[PB4].GPIO_Speed = GPIO_Speed_100MHz;
 	gpio[PB4].GPIO_PuPd = GPIO_PuPd_DOWN;
 	gpio[PB4].GPIO_OType = GPIO_OType_PP;
+
 
 	//PB5 Pin Configuration (TIM3_CH2 [PWM])
 	
