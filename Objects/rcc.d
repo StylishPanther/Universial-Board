@@ -44,3 +44,4 @@
 .\objects\rcc.o: .\User\inc\timer.h
 .\objects\rcc.o: .\User\inc\variable.h
 .\objects\rcc.o: .\User\inc\pwm.h
+.\objects\rcc.o: .\User\inc\menu.h

@@ -44,3 +44,4 @@
 .\objects\main.o: .\User\inc\timer.h
 .\objects\main.o: .\User\inc\variable.h
 .\objects\main.o: .\User\inc\pwm.h
+.\objects\main.o: .\User\inc\menu.h

@@ -11,6 +11,7 @@
 #include "timer.h"
 #include "variable.h"
 #include "pwm.h"
+#include "menu.h"
 #include "stm32f4xx.h"
 
 #endif

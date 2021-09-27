@@ -7,6 +7,7 @@
 ".\objects\rcc.o"
 ".\objects\uart.o"
 ".\objects\pwm.o"
+".\objects\menu.o"
 ".\objects\misc.o"
 ".\objects\stm32f4xx_adc.o"
 ".\objects\stm32f4xx_can.o"

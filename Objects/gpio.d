@@ -44,3 +44,4 @@
 .\objects\gpio.o: .\User\inc\timer.h
 .\objects\gpio.o: .\User\inc\variable.h
 .\objects\gpio.o: .\User\inc\pwm.h
+.\objects\gpio.o: .\User\inc\menu.h

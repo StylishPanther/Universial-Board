@@ -74,7 +74,8 @@ int main(void)
   Variable_Init();
   volatile int i = 0;
   volatile int time = 0;
-	
+
+  PrintMenu();
   while (1)
   {
 		
@@ -102,7 +103,7 @@ int main(void)
 		//UART4_SendData('');
 		for(i = 0; i < 1000000; i++) time++;
 		time = 0;
-		TxPrintf("Hello, World!\n");
+		
 
   }
 }

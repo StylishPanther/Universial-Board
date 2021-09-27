@@ -36,7 +36,7 @@ void M4_USART_Init(void)
 	
 	USART_Cmd(UART4, ENABLE); //USART is activated and ready to use
 
-	
+	TxPrintf("M4 Uart Initialized!!\n");
 }
 
 void USART1_Init(void)
