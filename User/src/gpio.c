@@ -242,7 +242,7 @@ void PC_AF_Config(void)
 	 GPIO_PinAFConfig(GPIOC, GPIO_PinSource7, GPIO_AF_TIM8);
 
 	 //GPIO_PinAFConfig(GPIOC, GPIO_PinSource8, );
-	 //GPIO_PinAFConfig(GPIOC, GPIO_PinSource9, );
+	 //GPIO_PinAFConfig(GPIOC, GPIO_PinSource9,GPIO );
 	 
 	 GPIO_PinAFConfig(GPIOC, GPIO_PinSource10,GPIO_AF_UART4);
 	 GPIO_PinAFConfig(GPIOC, GPIO_PinSource11,GPIO_AF_UART4);

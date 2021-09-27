@@ -4,7 +4,7 @@
 
 void M4_Pwm_Init(void)
 {
-	
+	TIM3_PWM_Configuration();
 }
 void TIM1_PWM_Configuration(void)
 {

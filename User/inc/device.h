@@ -5,13 +5,15 @@
 
 
 #include "main.h"
-#include "gpio.h"
-#include "rcc.h"
 #include "uart.h"
+
+#include "gpio.h"
 #include "timer.h"
 #include "variable.h"
 #include "pwm.h"
 #include "menu.h"
+#include "rcc.h"
+
 #include "stm32f4xx.h"
 
 #endif

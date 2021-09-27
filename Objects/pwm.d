@@ -38,10 +38,10 @@
 .\objects\pwm.o: .\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
 .\objects\pwm.o: .\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 .\objects\pwm.o: .\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
-.\objects\pwm.o: .\User\inc\gpio.h
-.\objects\pwm.o: .\User\inc\rcc.h
 .\objects\pwm.o: .\User\inc\uart.h
+.\objects\pwm.o: .\User\inc\gpio.h
 .\objects\pwm.o: .\User\inc\timer.h
 .\objects\pwm.o: .\User\inc\variable.h
 .\objects\pwm.o: .\User\inc\pwm.h
 .\objects\pwm.o: .\User\inc\menu.h
+.\objects\pwm.o: .\User\inc\rcc.h

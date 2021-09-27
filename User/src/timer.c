@@ -6,16 +6,7 @@ char TIM5_flag = 0;
 
 void M4_Timer_Init(void)
 {
-	TIM1_Configuration();
-	TIM2_Configuration();
 	TIM3_Configuration();	
-	TIM4_Configuration();
-	TIM5_Configuration();
-	TIM6_Configuration();
-	TIM7_Configuration();
-	TIM8_Configuration();
-	TIM9_Configuration();
-	TIM10_Configuration();
 }
 void TIM1_Configuration(void)
 {
@@ -74,7 +65,7 @@ void TIM2_Configuration(void)
 	TIM_TimeBaseStructure.TIM_Prescaler = 0;//프리스케일러
 	TIM_TimeBaseStructure.TIM_ClockDivision = 0;
 	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;//업카운터 다운카운터
-	TIM_TimeBaseInit(TIM5, &TIM_TimeBaseStructure);//위 내용대로 타이머 설정 적용
+	TIM_TimeBaseInit(TIM2, &TIM_TimeBaseStructure);//위 내용대로 타이머 설정 적용
 	
 	NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
@@ -97,7 +88,7 @@ void TIM3_Configuration(void)
 	TIM_TimeBaseStructure.TIM_Prescaler = 0;//프리스케일러
 	TIM_TimeBaseStructure.TIM_ClockDivision = 0;
 	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;//업카운터 다운카운터
-	TIM_TimeBaseInit(TIM5, &TIM_TimeBaseStructure);//위 내용대로 타이머 설정 적용
+	TIM_TimeBaseInit(TIM3, &TIM_TimeBaseStructure);//위 내용대로 타이머 설정 적용
 	
 	NVIC_InitStructure.NVIC_IRQChannel = TIM3_IRQn;
 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;

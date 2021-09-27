@@ -3,6 +3,7 @@
 
 
 
+extern void M4_Usart_Init(void);
 
 extern void USART1_Init(void);
 extern void UART4_Init(void);

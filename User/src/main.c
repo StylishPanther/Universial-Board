@@ -57,7 +57,12 @@ static void Delay(__IO uint32_t nTime);
 void System_Init(void)
 {
 	M4_Gpio_Init();
-	M4_USART_Init();
+	M4_Usart_Init();
+	M4_Rcc_Init();
+	M4_Timer_Init();
+	M4_Pwm_Init();
+	
+	
 	
 }
 
@@ -76,11 +81,12 @@ int main(void)
   volatile int time = 0;
 
   PrintMenu();
+  System_Information();
   while (1)
   {
 		
 		//Test
-		#if 0
+		#if 1
 		GPIO_WriteBit(GPIOA,GPIO_Pin_11 | GPIO_Pin_12 ,Bit_SET);
 		GPIO_WriteBit(GPIOD,GPIO_Pin_2 | GPIO_Pin_3  ,Bit_SET);
 		

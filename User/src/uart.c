@@ -3,7 +3,7 @@
 
 
 
-void M4_USART_Init(void)
+void M4_Usart_Init(void)
 {
 	GPIO_InitTypeDef GPIO_InitStructure;
 	USART_InitTypeDef USART_InitStructure;

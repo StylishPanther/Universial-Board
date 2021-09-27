@@ -4,5 +4,6 @@
 
 //
 
+void M4_Rcc_Init(void);
 
 #endif
